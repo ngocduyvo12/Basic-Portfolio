@@ -6,7 +6,7 @@
 
 html, body {
     background-image: url(../images/leaves.png);
-    /* margin: 0px; */
+    margin: 0px;
     height: 100%;
 
 }
@@ -114,4 +114,23 @@ a {
     padding: 10px 0;
     margin: 0;
     text-align: center;
+}
+
+.contact {
+    width: 95%;
+    margin: 5px;
+}
+
+.contactmessage {
+    width: 95%;
+    height: 200px;
+    margin: 5px;
+}
+
+.submitbutton {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
 }
