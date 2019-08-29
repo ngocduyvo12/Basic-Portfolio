@@ -6,8 +6,9 @@
 
 html, body {
     background-image: url(../images/leaves.png);
-    margin: 0px;
+    /* margin: 0px; */
     height: 100%;
+
 }
 .clearfix::after {
     content: "";
@@ -21,12 +22,20 @@ div {
     margin: 0 auto;
 }
 
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+
 .topbar {
     width: 100%;
     height: 89px;
     border-bottom: #cccccc solid 1px;
     background-color: white;
     padding-top: 20px;
+    margin: 0px;
 
 }
 
@@ -79,14 +88,21 @@ a {
 }
 
 .push {
-    height: 99px;
+    height: 120px;
 }
 
-.wrapper {
-    min-height: 100%;
+.container {
+    position: relative;
+    /* float: left; */
 
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
 }
 
+.port1pic {
+    position: absolute;
+    bottom: 50px;
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
