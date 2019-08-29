@@ -4,25 +4,32 @@
     clear: both;
 }
 
-header {
-    margin-left: 20%;
-    margin-top: 100px;
-    float: left;
-    color: white;
-    background-color: rgb(101, 185, 211);
-    width: 150px;
-    padding-left: 20px;
-
-}
-
-.links {
-    color: rgba(128, 121, 121, 0.959);
-    margin-top: 150px;
-    float: left;
-    margin-left: 810px;
-}
-
-.body {
+body {
+    width: 60%;
+    padding: 20px;
     margin: 0 auto;
-    
 }
+
+a {
+    color: #91aaa9;
+    text-decoration: none;
+    width: 50px;
+    text-align: center;
+    padding: 5px 10px;
+    border-right: #b9cccb 2px solid;
+}
+.tabs {
+    float: right;
+    padding-top: 20px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: beige;
+    width: 140px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+
