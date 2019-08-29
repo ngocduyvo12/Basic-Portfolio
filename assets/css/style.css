@@ -1,11 +1,32 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: url(../images/leaves.png);
+}
 .clearfix::after {
     content: "";
     display: "block";
     clear: both;
 }
 
-body {
-    width: 60%;
+div {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.topbar {
+    width: 100%;
+    border-bottom: #cccccc solid 1px;
+    background-color: white;
+}
+
+.toppart {
+    width: 960px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -20,16 +41,21 @@ a {
 }
 .tabs {
     float: right;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .name {
     background-color: #4aaaa5;
-    color: beige;
+    color: white;
     width: 140px;
     height: 70px;
     padding-top: 20px;
     padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.workingregion {
+    background-color: white;
 }
 
 
