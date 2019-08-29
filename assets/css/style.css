@@ -4,8 +4,10 @@
 
 }
 
-body {
+html, body {
     background-image: url(../images/leaves.png);
+    margin: 0px;
+    height: 100%;
 }
 .clearfix::after {
     content: "";
@@ -21,14 +23,18 @@ div {
 
 .topbar {
     width: 100%;
+    height: 89px;
     border-bottom: #cccccc solid 1px;
     background-color: white;
+    padding-top: 20px;
+
 }
 
 .toppart {
     width: 960px;
-    padding: 20px;
+    padding: 0;
     margin: 0 auto;
+
 }
 
 a {
@@ -58,4 +64,29 @@ a {
     background-color: white;
 }
 
+.profilepic {
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding-top: 13px;
+    height: 20px;
+}
+
+.push {
+    height: 99px;
+}
+
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
 
